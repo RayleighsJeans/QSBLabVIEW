@@ -1,0 +1,28 @@
+####
+#Date: Thu, Jul 19, 2018 11:01:10 AM
+#OSName: Windows 7 Professional Service Pack 1
+#OSVers: 6.1
+#OSBuild: 7601
+#AppName: W7-X Bolometer DAQ Auto
+#Version: 14.0.1f11 32-bit
+#AppKind: AppLib
+#AppModDate: 9/06/2017 13:51 GMT
+#LabVIEW Base Address: 0x30000000
+
+
+InitExecSystem() call to GetCurrProcessNumProcessors() reports: 4 processors
+InitExecSystem() call to GetNumProcessors()            reports: 4 processors
+InitExecSystem()                                      will use: 4 processors
+starting LabVIEW Execution System 4 Thread 0 , capacity: 24 at [3614835671.47201540, (11:01:11.472015381 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 1 , capacity: 24 at [3614835671.47201540, (11:01:11.472015381 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 2 , capacity: 24 at [3614835671.47201540, (11:01:11.472015381 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 3 , capacity: 24 at [3614835671.47201540, (11:01:11.472015381 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 0 , capacity: 24 at [3614835671.48601530, (11:01:11.486015320 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 1 , capacity: 24 at [3614835671.48601530, (11:01:11.486015320 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 2 , capacity: 24 at [3614835671.48601530, (11:01:11.486015320 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 3 , capacity: 24 at [3614835671.48601530, (11:01:11.486015320 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 0 , capacity: 24 at [3614835671.57001540, (11:01:11.570015431 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 1 , capacity: 24 at [3614835671.57001540, (11:01:11.570015431 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 2 , capacity: 24 at [3614835671.57001540, (11:01:11.570015431 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 3 , capacity: 24 at [3614835671.57001540, (11:01:11.570015431 2018:07:19)]
+starting LabVIEW Execution System 306708506 Thread 0 , capacity: 1 at [3614835671.58801560, (11:01:11.588015557 2018:07:19)]

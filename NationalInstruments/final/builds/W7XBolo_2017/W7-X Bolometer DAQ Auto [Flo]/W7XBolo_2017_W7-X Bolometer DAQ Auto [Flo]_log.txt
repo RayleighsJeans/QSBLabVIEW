@@ -1,0 +1,43 @@
+6/28/2018 1:06:55 PM
+[General]
+Project: C:\LABVIEW\BLV Florian\BLVFlo_2017\LABVIEW\BLV\W7XBolo_2017.lvproj
+Target: My Computer
+Build Specification: W7-X Bolometer DAQ Auto [Flo]
+OS: Windows NT 6.1
+
+[Open Top Level VIs]
+C:\LABVIEW\BLV Florian\BLVFlo_2017\LABVIEW\BLV\AutomatedStart_Flo.vi	9/6/2017 3:07:40 PM
+
+
+[ERROR]
+Code:1003
+Cannot complete build because following VI loaded broken:
+
+C:\LABVIEW\BLV Florian\BLVFlo_2017\LABVIEW\BLV\AutomatedStart_Flo.vi
+
+Open the VI in LabVIEW and fix the listed errors. If the VI loads as expected but errors are still detected during the build, contact National Instruments technical support for assistance.
+
+Broken VIs:
+- W7XBolo2017_Flo.vi:
+	FPGA VI not compiled
+
+
+
+<Call Chain>Error 1003 occurred at AB_Get_Detailed_BrokenVI_Message.vi -> AB_Targetfile.lvclass:Open_Top_Level_VIs.vi -> AB_Build.lvclass:Build.vi -> AB_Application.lvclass:Build.vi -> AB_EXE.lvclass:Build.vi -> AB_Engine_Build.vi -> AB_Build_Invoke.vi -> AB_Build_Invoke.vi.ProxyCaller
+
+Possible reason(s):
+
+LabVIEW:  The VI is not executable.  This error may occur because the VI is either broken or contains a subVI that LabVIEW cannot locate. Select File>>Open to open the VI and verify that you can run it.
+
+[Output Files]
+
+
+[Errors]
+Click the link below to visit the Application Builder support page. Use the following information as a reference:
+
+Error 1003 occurred at AB_Get_Detailed_BrokenVI_Message.vi -> AB_Targetfile.lvclass:Open_Top_Level_VIs.vi -> AB_Build.lvclass:Build.vi -> AB_Application.lvclass:Build.vi -> AB_EXE.lvclass:Build.vi -> AB_Engine_Build.vi -> AB_Build_Invoke.vi -> AB_Build_Invoke.vi.ProxyCaller
+
+Possible reason(s):
+
+LabVIEW:  The VI is not executable.  This error may occur because the VI is either broken or contains a subVI that LabVIEW cannot locate. Select File>>Open to open the VI and verify that you can run it.
+6/28/2018 1:06:57 PM

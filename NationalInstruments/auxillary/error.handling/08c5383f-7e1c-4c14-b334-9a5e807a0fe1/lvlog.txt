@@ -1,0 +1,65 @@
+####
+#Date: Thu, Jul 19, 2018 2:01:34 PM
+#OSName: Windows 7 Professional Service Pack 1
+#OSVers: 6.1
+#OSBuild: 7601
+#AppName: W7-X Bolometer DAQ Auto
+#Version: 14.0.1f11 32-bit
+#AppKind: AppLib
+#AppModDate: 9/06/2017 13:51 GMT
+#LabVIEW Base Address: 0x30000000
+
+
+InitExecSystem() call to GetCurrProcessNumProcessors() reports: 4 processors
+InitExecSystem() call to GetNumProcessors()            reports: 4 processors
+InitExecSystem()                                      will use: 4 processors
+starting LabVIEW Execution System 4 Thread 0 , capacity: 24 at [3614846495.82473040, (14:01:35.824730397 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 1 , capacity: 24 at [3614846495.82473040, (14:01:35.824730397 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 2 , capacity: 24 at [3614846495.82473040, (14:01:35.824730397 2018:07:19)]
+starting LabVIEW Execution System 4 Thread 3 , capacity: 24 at [3614846495.82473040, (14:01:35.824730397 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 0 , capacity: 24 at [3614846495.83873180, (14:01:35.838731766 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 1 , capacity: 24 at [3614846495.83873180, (14:01:35.838731766 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 2 , capacity: 24 at [3614846495.83873180, (14:01:35.838731766 2018:07:19)]
+starting LabVIEW Execution System 2 Thread 3 , capacity: 24 at [3614846495.83873180, (14:01:35.838731766 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 0 , capacity: 24 at [3614846495.92174010, (14:01:35.921740056 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 1 , capacity: 24 at [3614846495.92174010, (14:01:35.921740056 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 2 , capacity: 24 at [3614846495.92174010, (14:01:35.921740056 2018:07:19)]
+starting LabVIEW Execution System 5 Thread 3 , capacity: 24 at [3614846495.92174010, (14:01:35.921740056 2018:07:19)]
+starting LabVIEW Execution System 306708506 Thread 0 , capacity: 1 at [3614846495.93974210, (14:01:35.939742089 2018:07:19)]<LVExec>
+{"a":[
+{
+"vi": "C:\\LABVIEW\\BLV Florian\\W7_X_Flo_2017_build\\W7-X Bolometer DAQ Auto.exe\\W7X2DJSON.vi",
+"ctx": "Main Application Instance",
+"type": "subVI"
+}
+,
+{
+"vi": "C:\\LABVIEW\\BLV Florian\\W7_X_Flo_2017_build\\W7-X Bolometer DAQ Auto.exe\\W7XBolo2017_Flo.vi",
+"ctx": "Main Application Instance",
+"type": "subVI"
+}
+,
+{
+"vi": "C:\\LABVIEW\\BLV Florian\\W7_X_Flo_2017_build\\W7-X Bolometer DAQ Auto.exe\\AutomatedStart_Flo.vi",
+"ctx": "Main Application Instance",
+"type": "topVI"
+}
+] }
+</LVExec>
+
+<DEBUG_OUTPUT>
+7/19/2018 2:15:19.373 PM
+Crash 0x00000000: Crash caught by NIER
+File Unknown(0) : Crash 0x00000000: Crash caught by NIER
+minidump id: 6b45a4ad-00b3-4ae8-bde4-99ee5cd1b089
+ExceptionCode: 0xC0000005
+
+</DEBUG_OUTPUT>
+0x71721482 - nierInterface <unknown> + 0
+0x71725D75 - nierInterface <unknown> + 0
+0x7172517A - nierInterface <unknown> + 0
+0x6D74866A - mscoreei <unknown> + 0
+0x757903B7 - kernel32 <unknown> + 0
+0x77D350D7 - ntdll <unknown> + 0
+0x77CF9805 - ntdll <unknown> + 0
+0x00000000 - <unknown> <unknown> + 0
